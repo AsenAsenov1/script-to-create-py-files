@@ -4,12 +4,12 @@ The purpose of this code is to receive specific input data copied from SoftUni's
 The files could be created in specific directory or where the script file itself is located.
 
 # How to use:
-  - 1   Run the code as directly opening the file.
-  - 1.1 Choose specific path
-  - 1.2 Use the current directory
-=========================================================================================
-   - 2 . Run it as code in PyCharm.
-   - 2.1 Place the file in your current Project and then you just have to use the 2nd option because it is easier and faster.
+  ### 1   Run the code as directly opening the file.
+  ### 1.1 Choose specific path
+  ### 1.2 Use the current directory
+  ###       OR
+  ### 2 . Run it as code in PyCharm.
+  ### 2.1 Place the file in your current Project and then you just have to use the 2nd option because it is easier and faster.
 
 # 1. Run the code as directly opening the file.
 
@@ -17,18 +17,18 @@ The files could be created in specific directory or where the script file itself
 
 # 1.1 Choose specific path
    
- 1.1.1 Enter the directory path
+ ### 1.1.1 Enter the directory path
  
  ![image](https://user-images.githubusercontent.com/47159032/198838438-e4ad06ab-29a1-454d-bbee-694fbceea2ce.png)
 
 
- 1.1.2 Paste the names of the tasks copied from judge
+ ### 1.1.2 Paste the names of the tasks copied from judge
  
 ![image](https://user-images.githubusercontent.com/47159032/198837442-6f84231a-5149-4dae-87ee-58acaa5e17b7.png)
 
 ![image](https://user-images.githubusercontent.com/47159032/198837497-880f8454-cc27-47ba-a08c-cc38a91ac46c.png)
 
-And you're done! Your files are created in the specified path!
+### And you're done! Your files are created in the specified path!
 
 ![image](https://user-images.githubusercontent.com/47159032/198837746-7d1deccb-c185-49ec-bb71-e30649448692.png)
 
@@ -40,7 +40,7 @@ And you're done! Your files are created in the specified path!
 
 # 2. Run it as code in PyCharm
 
-2. Locate the file in PyCharm and then you just have to use the 2nd option because it is easier and faster.
+### 2. Locate the file in PyCharm and then you just have to use the 2nd option because it is easier and faster.
 
 ![image](https://user-images.githubusercontent.com/47159032/198838965-0023c4a3-a487-44fa-a4d9-88e8d65eb218.png)
 ![image](https://user-images.githubusercontent.com/47159032/198839914-830deb4d-b4e3-4403-9765-294023f4329b.png)
