@@ -1,18 +1,22 @@
 <!-- # python-script-to-create-.py-files -->
 # Description:
 The purpose of this code is to receive specific input data copied from SoftUni's "judge" system, then create ".py" files based on the input data. 
-The files could be created in specific directory or where the script itself is located.
+The files could be created in specific directory or where the script file itself is located.
 
-# How to use: Open it as file or run it as code in PyCharm.
-  
+# How to use:
+  - 1   Run the code as directly opening the file.
+  - 1.1 Choose specific path
+  - 1.2 Use the current directory
+=========================================================================================
+   - 2 . Run it as code in PyCharm.
+   - 2.1 Place the file in your current Project and then you just have to use the 2nd option because it is easier and faster.
 
-
-# 1.Run the code as directly opening the file.
+# 1. Run the code as directly opening the file.
 
 ![image](https://user-images.githubusercontent.com/47159032/198837011-1c6a799e-1c85-465f-a8a6-3bf195f74644.png)
 
 # 1.1 Choose specific path
-
+   
  1.1.1 Enter the directory path
  
  ![image](https://user-images.githubusercontent.com/47159032/198838438-e4ad06ab-29a1-454d-bbee-694fbceea2ce.png)
@@ -39,6 +43,7 @@ And you're done! Your files are created in the specified path!
 2. Locate the file in PyCharm and then you just have to use the 2nd option because it is easier and faster.
 
 ![image](https://user-images.githubusercontent.com/47159032/198838965-0023c4a3-a487-44fa-a4d9-88e8d65eb218.png)
+![image](https://user-images.githubusercontent.com/47159032/198839914-830deb4d-b4e3-4403-9765-294023f4329b.png)
 ![image](https://user-images.githubusercontent.com/47159032/198839100-44b17b54-6db3-4455-9adf-d4342e86bffd.png)
 ![image](https://user-images.githubusercontent.com/47159032/198839125-c676faba-bb02-4c06-be8b-5fcdd4516193.png)
 
