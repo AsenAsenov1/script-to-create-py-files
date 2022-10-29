@@ -9,13 +9,19 @@ print("1. Create '.py' files at specific path " '\n'
       "2. Create '.py' files at current directory")
 question = input("Enter 1 or 2: ")
 
-if question == "1":
-    print()
-    print("Example directory: C:\\Users\\smart\\PycharmProjects\\Fundamentals\\13_objects_and_classes_exercise"'\n')
-    filepath = input("Enter the directory path in which you want to create the files : "'\n')
-    specific_dir = True
-elif question == "2":
-    specific_dir = False
+while True:
+    if question == "1":
+        print()
+        print("Example directory: C:\\Users\\smart\\PycharmProjects\\Fundamentals\\13_objects_and_classes_exercise"'\n')
+        filepath = input("Enter the directory path in which you want to create the files : "'\n')
+        specific_dir = True
+        break
+    elif question == "2":
+        specific_dir = False
+        break
+    else:
+        print("Wrong input! Try 1 or 2 !")
+        question = input("Enter 1 or 2: ")
 
 print("Example task names: 01. Storage02. Weapon03. Catalogue04. Town05. Class06. Inventory07. Articles08. "
       "Vehicle✶09. Movie✶")
