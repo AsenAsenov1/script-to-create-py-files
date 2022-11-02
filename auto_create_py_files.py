@@ -14,8 +14,19 @@ while True:
         print()
         print("Example directory: C:\\Users\\smart\\PycharmProjects\\Fundamentals\\13_objects_and_classes_exercise"'\n')
         filepath = input("Enter the directory path in which you want to create the files : "'\n')
-        specific_dir = True
+        if os.path.exists(filepath):
+            specific_dir = True
+            break
+
+        else:
+            while True:
+                if os.path.exists(filepath):
+                    specific_dir = True
+                    break
+                print("Incorrect path! Please enter valid path!")
+                filepath = input()
         break
+
     elif question == "2":
         specific_dir = False
         break
