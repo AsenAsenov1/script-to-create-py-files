@@ -39,7 +39,7 @@ print("Example task names: 01. Storage02. Weapon03. Catalogue04. Town05. Class06
 print()
 words = input("Paste the names of the tasks copied from judge: ")
 
-pattern = r"(\d{2}\.\s([A-Za-z!@#$%^&*_\-,;'`]+\s?)*)"
+pattern = r"(\d{2}\.\s([A-Za-z!@#$%^&*_\-,;'`]*(\d{3})?\s?)*)"
 match = re.findall(pattern, words)
 
 final_list = [x[0].lower().replace(" ", "_").replace(".", "",) for x in match]
